@@ -1,0 +1,133 @@
+/* ── DESIGN SYSTEM DATA ─────────────────────────────────────────────────────
+   All token values, type scale, spacing, and shadow data used by section
+   renderers. Keep in sync with css/tokens.css when values change.
+   ─────────────────────────────────────────────────────────────────────────── */
+
+window.DS = {
+
+  RAMPS: [
+    { label: 'Primary Blue', tokens: [
+      { name:'primary/100', hex:'#BBD7FF' },
+      { name:'primary/200', hex:'#81B5FF' },
+      { name:'primary/300', hex:'#4A95FF' },
+      { name:'primary/400', hex:'#2882FF' },
+      { name:'primary/500', hex:'#0F65DC' },
+    ]},
+    { label: 'Neutral / Grey', tokens: [
+      { name:'neutral/100', hex:'#EEEEEE' },
+      { name:'neutral/200', hex:'#CCCCCC' },
+      { name:'neutral/300', hex:'#999999' },
+      { name:'neutral/400', hex:'#777777' },
+      { name:'neutral/500', hex:'#555555' },
+    ]},
+    { label: 'Text', tokens: [
+      { name:'text/100', hex:'#8E8E8E' },
+      { name:'text/200', hex:'#7D7D7D' },
+      { name:'text/300', hex:'#636363' },
+      { name:'text/400', hex:'#333333' },
+      { name:'text/500', hex:'#1A1A1A' },
+    ]},
+    { label: 'Background', tokens: [
+      { name:'bg/100', hex:'#FAFAFA' },
+      { name:'bg/200', hex:'#F0F0F0' },
+      { name:'bg/300', hex:'#EAEAEA' },
+      { name:'bg/400', hex:'#E5E5E5' },
+      { name:'bg/500', hex:'#E1E1E1' },
+    ]},
+    { label: 'Danger / Red', tokens: [
+      { name:'danger/100', hex:'#FFE5E5' },
+      { name:'danger/200', hex:'#F69093' },
+      { name:'danger/300', hex:'#F1595D' },
+      { name:'danger/400', hex:'#ED2227' },
+      { name:'danger/500', hex:'#C60207' },
+    ]},
+    { label: 'Warning / Yellow', tokens: [
+      { name:'warning/100', hex:'#FFF5C0' },
+      { name:'warning/200', hex:'#FFEB80' },
+      { name:'warning/300', hex:'#FEE141' },
+      { name:'warning/400', hex:'#FED702' },
+      { name:'warning/500', hex:'#FECC02' },
+    ]},
+    { label: 'Base', tokens: [
+      { name:'base/white',   hex:'#FFFFFF' },
+      { name:'base/black',   hex:'#000000' },
+      { name:'base/divider', hex:'#EBEDEF' },
+    ]},
+  ],
+
+  SEM: [
+    { g:'Backgrounds' },
+    { n:'bg-page',          a:'bg/100',        h:'#FAFAFA', u:'Page background' },
+    { n:'bg-subtle',        a:'bg/200',        h:'#F0F0F0', u:'Sidebars, subtle fills' },
+    { n:'bg-muted',         a:'bg/300',        h:'#EAEAEA', u:'Disabled backgrounds' },
+    { n:'bg-emphasis',      a:'bg/400',        h:'#E5E5E5', u:'Hover, selected rows' },
+    { g:'Surfaces' },
+    { n:'surface-base',     a:'base/white',    h:'#FFFFFF', u:'Cards, modals, dialogs' },
+    { g:'Text' },
+    { n:'text-primary',     a:'text/500',      h:'#1A1A1A', u:'Primary body text' },
+    { n:'text-secondary',   a:'text/300',      h:'#636363', u:'Labels, captions' },
+    { n:'text-muted',       a:'text/100',      h:'#8E8E8E', u:'Placeholder, helper text' },
+    { n:'text-disabled',    a:'neutral/200',   h:'#CCCCCC', u:'Disabled text' },
+    { n:'text-inverse',     a:'base/white',    h:'#FFFFFF', u:'Text on dark backgrounds' },
+    { n:'text-link',        a:'primary/300',   h:'#4A95FF', u:'Hyperlinks' },
+    { g:'Borders' },
+    { n:'border-default',   a:'neutral/200',   h:'#CCCCCC', u:'Input, card borders' },
+    { n:'border-strong',    a:'neutral/300',   h:'#999999', u:'Hover borders' },
+    { n:'border-divider',   a:'base/divider',  h:'#EBEDEF', u:'Subtle dividers' },
+    { n:'border-focus',     a:'primary/400',   h:'#2882FF', u:'Focus ring' },
+    { n:'border-error',     a:'danger/400',    h:'#ED2227', u:'Error state' },
+    { g:'Interactive' },
+    { n:'action',           a:'primary/400',   h:'#2882FF', u:'Primary button bg, links' },
+    { n:'action-hover',     a:'primary/300',   h:'#4A95FF', u:'Hover state' },
+    { n:'action-active',    a:'primary/500',   h:'#0F65DC', u:'Pressed/active state' },
+    { n:'action-disabled',  a:'neutral/200',   h:'#CCCCCC', u:'Disabled interactive' },
+    { n:'action-subtle',    a:'primary/100',   h:'#BBD7FF', u:'Active nav bg, badge bg' },
+    { g:'Status — Danger' },
+    { n:'status/danger-bg',     a:'danger/100', h:'#FFE5E5', u:'Error message background' },
+    { n:'status/danger-text',   a:'danger/500', h:'#C60207', u:'Error text' },
+    { n:'status/danger-border', a:'danger/400', h:'#ED2227', u:'Error border' },
+    { g:'Status — Warning' },
+    { n:'status/warning-bg',     a:'warning/100', h:'#FFF5C0', u:'Warning background' },
+    { n:'status/warning-text',   a:'warning/500', h:'#FECC02', u:'Warning text' },
+    { n:'status/warning-border', a:'warning/400', h:'#FED702', u:'Warning border' },
+  ],
+
+  TYPES: [
+    { tok:'heading-1',   samp:'The quick brown fox jumps',                      spec:'Roboto ExtraBold · 32px · LH 100% · LS 2.5%', st:'font-size:32px;font-weight:800;line-height:1;letter-spacing:-0.01em' },
+    { tok:'heading-2',   samp:'The quick brown fox jumps over the lazy dog',    spec:'Roboto SemiBold · 24px · LH 100% · LS 2.5%',  st:'font-size:24px;font-weight:600;line-height:1' },
+    { tok:'heading-3',   samp:'The quick brown fox jumps over the lazy dog.',   spec:'Roboto SemiBold · 16px · LH 100% · LS 2.5%',  st:'font-size:16px;font-weight:600;line-height:1' },
+    { tok:'body-lg',     samp:'The quick brown fox jumps over the lazy dog.',   spec:'Roboto Regular · 16px · LH 140% · LS 0',      st:'font-size:16px;font-weight:400;line-height:1.4' },
+    { tok:'body-md',     samp:'The quick brown fox jumps over the lazy dog.',   spec:'Roboto Regular · 14px · LH 140% · LS 0',      st:'font-size:14px;font-weight:400;line-height:1.4' },
+    { tok:'body-sm',     samp:'The quick brown fox jumps over the lazy dog.',   spec:'Roboto Regular · 12px · LH 100% · LS 0',      st:'font-size:12px;font-weight:400;line-height:1' },
+    { tok:'label',       samp:'FORM LABEL · BADGE TEXT · CHIP',                 spec:'Roboto Medium · 14px · LH 100% · LS 2.5%',    st:'font-size:14px;font-weight:500;letter-spacing:0.025em;line-height:1' },
+    { tok:'link',        samp:'View details &#8594; Click here to continue',    spec:'Roboto Regular · 14px · underline · LH 140%', st:'font-size:14px;font-weight:400;text-decoration:underline;color:#4A95FF;line-height:1.4' },
+    { tok:'button-text', samp:'Save Changes · Cancel · Submit',                 spec:'Roboto Medium · 16px · LH 100% · LS 2.5%',    st:'font-size:16px;font-weight:500;letter-spacing:0.025em;line-height:1' },
+    { tok:'code',        samp:"const token = colors['text-primary'];",          spec:'Roboto Mono Regular · 12px · LH 150%',        st:'font-size:12px;font-weight:400;font-family:Roboto Mono,monospace;line-height:1.5' },
+  ],
+
+  SPACING: [
+    { n:'space-1',  px:4  }, { n:'space-2',  px:8  }, { n:'space-3',  px:12 },
+    { n:'space-4',  px:16 }, { n:'space-5',  px:20 }, { n:'space-6',  px:24 },
+    { n:'space-8',  px:32 }, { n:'space-10', px:40 }, { n:'space-12', px:48 },
+    { n:'space-16', px:64 },
+  ],
+
+  SPACING_NAMED: [
+    { n:'gap-xs',     v:'space-1 · 4px',   u:'Icon gaps, tight pairs' },
+    { n:'gap-sm',     v:'space-2 · 8px',   u:'Icon-to-label, chip padding' },
+    { n:'gap-md',     v:'space-3 · 12px',  u:'Button padding, form rows' },
+    { n:'gap-lg',     v:'space-4 · 16px',  u:'Between components' },
+    { n:'gap-xl',     v:'space-6 · 24px',  u:'Card padding, section internals' },
+    { n:'section-sm', v:'space-4 · 16px',  u:'Small section padding' },
+    { n:'section-md', v:'space-8 · 32px',  u:'Standard section padding' },
+    { n:'section-lg', v:'space-16 · 64px', u:'Page-level padding' },
+  ],
+
+  SHADOWS: [
+    { n:'shadow-xs', css:'0 1px 2px rgba(0,0,0,0.05)',   u:'Subtle lift' },
+    { n:'shadow-sm', css:'0 1px 3px rgba(0,0,0,0.10)',   u:'Cards (default)' },
+    { n:'shadow-md', css:'0 4px 6px rgba(0,0,0,0.10)',   u:'Dropdowns, popovers' },
+    { n:'shadow-lg', css:'0 10px 15px rgba(0,0,0,0.10)', u:'Sticky headers, drawers' },
+    { n:'shadow-xl', css:'0 20px 25px rgba(0,0,0,0.10)', u:'Modals, dialogs' },
+  ],
+};

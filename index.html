@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base Design System · Internal Tools</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="sb-head">
+    <div class="sb-wordmark">Internal Tools</div>
+    <div class="sb-sub">Base Design System · v1.0</div>
+  </div>
+  <nav class="sb-nav">
+    <a href="#overview"  class="sb-link">Overview</a>
+    <div class="sb-group-label">Foundations</div>
+    <a href="#colors"     class="sb-link">Colors</a>
+    <a href="#typography" class="sb-link">Typography</a>
+    <a href="#spacing"    class="sb-link">Spacing &amp; Grid</a>
+    <a href="#shadows"    class="sb-link">Shadows</a>
+    <div class="sb-group-label">Components</div>
+    <a href="#button"     class="sb-link">Button</a>
+    <a href="#input"      class="sb-link">Input</a>
+    <a href="#badge"      class="sb-link">Badge</a>
+    <a href="#alert"      class="sb-link">Alert / Banner</a>
+    <a href="#card"       class="sb-link">Card</a>
+    <a href="#avatar"     class="sb-link">Avatar</a>
+    <a href="#navigation" class="sb-link">Navigation</a>
+    <div class="sb-group-label">Guidelines</div>
+    <a href="#token-rules"    class="sb-link">Token Rules</a>
+    <a href="#client-theming" class="sb-link">Client Theming</a>
+
+    <div class="sb-sep"></div>
+
+    <a href="#prompts-intro" class="sb-link sb-tool-label">Prompt Playbook</a>
+    <div class="sb-group-label">Foundation</div>
+    <a href="#prompts-p1"  class="sb-link">1 &middot; Status Dashboard</a>
+    <a href="#prompts-p2"  class="sb-link">2 &middot; Records Table</a>
+    <a href="#prompts-p3"  class="sb-link">3 &middot; Record Detail</a>
+    <div class="sb-group-label">Forms &amp; Upload</div>
+    <a href="#prompts-p4"  class="sb-link">4 &middot; Test Record Form</a>
+    <a href="#prompts-p5"  class="sb-link">5 &middot; Document Upload</a>
+    <div class="sb-group-label">Documents</div>
+    <a href="#prompts-p6"  class="sb-link">6 &middot; Document Viewer</a>
+    <div class="sb-group-label">Compliance Tools</div>
+    <a href="#prompts-p7"  class="sb-link">7 &middot; Requirements Checklist</a>
+    <a href="#prompts-p8"  class="sb-link">8 &middot; Expiry Tracker</a>
+    <a href="#prompts-p9"  class="sb-link">9 &middot; Search &amp; Filter</a>
+    <a href="#prompts-p10" class="sb-link">10 &middot; Audit Trail</a>
+  </nav>
+</aside>
+
+<main class="main">
+  <div class="topbar">
+    <span class="tb-crumb">Internal Tools &middot; <b>Design System &amp; Prompt Playbook</b></span>
+    <span class="tb-badge">v1.0</span>
+  </div>
+  <div class="content" id="content">
+    <!-- Sections are mounted here by JS. Edit sections/*.js to change content. -->
+  </div>
+</main>
+
+<div id="toast">Copied!</div>
+
+<!-- Load order matters: data → utils → sections → app -->
+<script src="js/data.js"></script>
+<script src="js/utils.js"></script>
+
+<script src="sections/overview.js"></script>
+<script src="sections/colors.js"></script>
+<script src="sections/typography.js"></script>
+<script src="sections/spacing.js"></script>
+<script src="sections/shadows.js"></script>
+<script src="sections/button.js"></script>
+<script src="sections/input.js"></script>
+<script src="sections/badge.js"></script>
+<script src="sections/alert.js"></script>
+<script src="sections/card.js"></script>
+<script src="sections/avatar.js"></script>
+<script src="sections/navigation.js"></script>
+<script src="sections/token-rules.js"></script>
+<script src="sections/client-theming.js"></script>
+
+<script src="sections/prompts-intro.js"></script>
+<script src="sections/prompts-p1.js"></script>
+<script src="sections/prompts-p2.js"></script>
+<script src="sections/prompts-p3.js"></script>
+<script src="sections/prompts-p4.js"></script>
+<script src="sections/prompts-p5.js"></script>
+<script src="sections/prompts-p6.js"></script>
+<script src="sections/prompts-p7.js"></script>
+<script src="sections/prompts-p8.js"></script>
+<script src="sections/prompts-p9.js"></script>
+<script src="sections/prompts-p10.js"></script>
+
+<script src="js/app.js"></script>
+</body>
+</html>
