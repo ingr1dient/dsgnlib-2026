@@ -38,7 +38,7 @@
   --d200: #F69093;
   --d300: #F1595D;
   --d400: #ED2227;
-  --d500: #C60207;
+  --d500: #D70005;
 
   /* ── Primitives: Warning / Yellow ── */
   --w100: #FFF5C0;
@@ -46,6 +46,13 @@
   --w300: #FEE141;
   --w400: #FED702;
   --w500: #FECC02;
+
+  /* ── Primitives: Success / Green ── */
+  --s100: #F0FDF4;
+  --s200: #BBF7D0;
+  --s300: #4ADE80;
+  --s400: #16A34A;
+  --s500: #15803D;
 
   /* ── Primitives: Base ── */
   --white: #FFFFFF;

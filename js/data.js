@@ -39,7 +39,7 @@ window.DS = {
       { name:'danger/200', hex:'#F69093' },
       { name:'danger/300', hex:'#F1595D' },
       { name:'danger/400', hex:'#ED2227' },
-      { name:'danger/500', hex:'#C60207' },
+      { name:'danger/500', hex:'#D70005' },
     ]},
     { label: 'Warning / Yellow', tokens: [
       { name:'warning/100', hex:'#FFF5C0' },
@@ -47,6 +47,13 @@ window.DS = {
       { name:'warning/300', hex:'#FEE141' },
       { name:'warning/400', hex:'#FED702' },
       { name:'warning/500', hex:'#FECC02' },
+    ]},
+    { label: 'Success / Green', tokens: [
+      { name:'success/100', hex:'#F0FDF4' },
+      { name:'success/200', hex:'#BBF7D0' },
+      { name:'success/300', hex:'#4ADE80' },
+      { name:'success/400', hex:'#16A34A' },
+      { name:'success/500', hex:'#15803D' },
     ]},
     { label: 'Base', tokens: [
       { name:'base/white',   hex:'#FFFFFF' },
@@ -84,7 +91,7 @@ window.DS = {
     { n:'action-subtle',    a:'primary/100',   h:'#BBD7FF', u:'Active nav bg, badge bg' },
     { g:'Status — Danger' },
     { n:'status/danger-bg',     a:'danger/100', h:'#FFE5E5', u:'Error message background' },
-    { n:'status/danger-text',   a:'danger/500', h:'#C60207', u:'Error text' },
+    { n:'status/danger-text',   a:'danger/500', h:'#D70005', u:'Error text' },
     { n:'status/danger-border', a:'danger/400', h:'#ED2227', u:'Error border' },
     { g:'Status — Warning' },
     { n:'status/warning-bg',     a:'warning/100', h:'#FFF5C0', u:'Warning background' },
@@ -113,14 +120,14 @@ window.DS = {
   ],
 
   SPACING_NAMED: [
-    { n:'gap-xs',     v:'space-1 · 4px',   u:'Icon gaps, tight pairs' },
-    { n:'gap-sm',     v:'space-2 · 8px',   u:'Icon-to-label, chip padding' },
-    { n:'gap-md',     v:'space-3 · 12px',  u:'Button padding, form rows' },
-    { n:'gap-lg',     v:'space-4 · 16px',  u:'Between components' },
-    { n:'gap-xl',     v:'space-6 · 24px',  u:'Card padding, section internals' },
+    { n:'gap-xs',     v:'space-1 · 4px',   u:'Icon-to-icon, tight inline pairs' },
+    { n:'gap-sm',     v:'space-2 · 8px',   u:'Icon-to-label, chip padding, compact rows' },
+    { n:'gap-md',     v:'space-3 · 12px',  u:'Default gap inside components (button internal padding)' },
+    { n:'gap-lg',     v:'space-4 · 16px',  u:'Gap between components, form field spacing' },
+    { n:'gap-xl',     v:'space-6 · 24px',  u:'Card internal padding, section internals' },
     { n:'section-sm', v:'space-4 · 16px',  u:'Small section padding' },
     { n:'section-md', v:'space-8 · 32px',  u:'Standard section padding' },
-    { n:'section-lg', v:'space-16 · 64px', u:'Page-level padding' },
+    { n:'section-lg', v:'space-16 · 64px', u:'Page-level padding, large section gaps' },
   ],
 
   SHADOWS: [

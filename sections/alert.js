@@ -8,7 +8,8 @@ mountSection('alert', `
   <p class="sec-desc">
     Full-width status messages. An icon is mandatory &mdash;
     colour alone must not be the only differentiator for accessibility.
-    Four semantic variants.
+    Four semantic variants: info &middot; success &middot; warning &middot; danger.
+    Padding: 14/16px &middot; Radius: 8px &middot; Gap: 12px &middot; Icon: always required (WCAG 1.4.1).
   </p>
 
   <div class="sub">

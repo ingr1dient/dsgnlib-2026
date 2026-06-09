@@ -35,7 +35,7 @@ mountSection('badge', `
     <div class="sub-title">Rule</div>
     ${ruleGrid(
       'background: var(--s-danger-bg);\ncolor:      var(--s-danger-tx);',
-      'background: #FFE5E5;\ncolor:      #C60207;'
+      'background: #FFE5E5;\ncolor:      #D70005;'
     )}
   </div>
 `);
