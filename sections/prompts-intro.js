@@ -7,7 +7,7 @@ mountSection('prompts-intro', `
   <h2 class="sec-title">Prompt Playbook</h2>
   <p class="sec-desc">
     Pre-written AI prompts for recurring compliance platform screen types.
-    Fill in the <span style="background:rgba(254,215,2,0.18);color:#7B5800;border-radius:3px;padding:1px 5px;font-family:'Roboto Mono',monospace;font-size:12px">[PLACEHOLDERS]</span>
+    Fill in the <span style="background:rgba(245,158,11,0.18);color:#7B5800;border-radius:3px;padding:1px 5px;font-family:'Roboto Mono',monospace;font-size:12px">[PLACEHOLDERS]</span>
     from your Project Intake before pasting into an AI session.
   </p>
 

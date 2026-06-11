@@ -14,9 +14,11 @@ mountSection('overview', `
     <div class="stat"><div class="stat-n">5</div><div class="stat-l">Shadow levels</div></div>
   </div>
   <div class="alert-bar">
-    <strong>&#9888; 6 open decisions remain</strong> &mdash;
-    D2 (border radius) &middot; D4 (muted text) &middot; D5 (warning source) &middot;
-    D6 (Futura scope) &middot; D7 (avatar sizes) &middot; D8 (icon library).
-    See <code>DESIGN.md &sect;5</code>.
+    <strong>&#10003; All design decisions resolved (2026-06-11)</strong> &mdash;
+    D1 action colour stays abstract (client-mapped) &middot; D2 radius 8px &middot;
+    D3 page bg #FAFAFA &middot; D4 muted #8E8E8E &middot; D5 amber warning ramp &middot;
+    D6 Futura dropped from base &middot; D7 avatars 24/32/40 &middot;
+    D8 custom icon set &middot; D9 text-disabled #999999.
+    Rationale in <code>DESIGN.md &sect;5</code>.
   </div>
 `);

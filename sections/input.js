@@ -6,7 +6,7 @@
 mountSection('input', `
   <h2 class="sec-title">Input / Search</h2>
   <p class="sec-desc">
-    Height 40px (md). Pill radius 20px pending Decision D2.
+    Height 40px (md). Radius 8px (Decision D2 resolved 2026-06-11).
     Placeholder: <code>text-muted</code>.
     Always pair with a visible <code>label</code> text-style label above.
   </p>
@@ -36,7 +36,7 @@ mountSection('input', `
   <span class="fn">height</span>: <span class="str">40px</span>; <span class="fn">padding</span>: <span class="str">0 16px</span>;
   <span class="fn">background</span>: <span class="str">var(--surface)</span>;
   <span class="fn">border</span>: <span class="str">1.5px solid var(--border-default)</span>;
-  <span class="fn">border-radius</span>: <span class="str">20px</span>; <span class="com">/* D2 pending */</span>
+  <span class="fn">border-radius</span>: <span class="str">8px</span>;
 }
 <span class="kw">.input:focus</span>  { <span class="fn">border-color</span>: <span class="str">var(--border-focus)</span>; <span class="fn">box-shadow</span>: <span class="str">0 0 0 3px rgba(40,130,255,0.14)</span>; }
 <span class="kw">.input.error</span>  { <span class="fn">border-color</span>: <span class="str">var(--border-error)</span>; }

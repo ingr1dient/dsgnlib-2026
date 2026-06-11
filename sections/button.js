@@ -7,7 +7,7 @@ mountSection('button', `
   <h2 class="sec-title">Button</h2>
   <p class="sec-desc">
     Three variants (primary, secondary, ghost) &times; two sizes (md 40px, sm 32px) &times; three states.
-    Pill radius is pending Decision D2.
+    Radius: 8px (Decision D2 resolved 2026-06-11; LFX overrides to full pill in its theme).
     Action colour resolves from <code>--action</code> &mdash; override per client theme.
   </p>
 

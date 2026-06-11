@@ -40,12 +40,12 @@
   --d400: #ED2227;
   --d500: #D70005;
 
-  /* ── Primitives: Warning / Yellow ── */
-  --w100: #FFF5C0;
-  --w200: #FFEB80;
-  --w300: #FEE141;
-  --w400: #FED702;
-  --w500: #FECC02;
+  /* ── Primitives: Warning / Amber (D5 resolved 2026-06-11) ── */
+  --w100: #FEF3C7;
+  --w200: #FDE68A;
+  --w300: #FCD34D;
+  --w400: #F59E0B;
+  --w500: #D97706;
 
   /* ── Primitives: Success / Green ── */
   --s100: #F0FDF4;
@@ -77,7 +77,7 @@
   --text-primary:   var(--t500);
   --text-secondary: var(--t300);
   --text-muted:     var(--t100);
-  --text-disabled:  var(--n200);
+  --text-disabled:  var(--n300);  /* D9: was n200, which equals action-disabled */
   --text-inverse:   var(--white);
   --text-link:      var(--p300);
 

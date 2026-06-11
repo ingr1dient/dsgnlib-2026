@@ -1,14 +1,14 @@
 /* ── SECTION: Avatar ─────────────────────────────────────────────────────────
-   Circle with initials fallback across sm/md/lg/xl sizes.
+   Circle with initials fallback across sm/md/lg sizes.
    Edit this file to update avatar documentation or adjust sizes.
-   Note: sizes are provisional — see Decision D7.
+   Sizes confirmed 2026-06-11 (Decision D7): 24 / 32 / 40px.
    ─────────────────────────────────────────────────────────────────────────── */
 
 mountSection('avatar', `
   <h2 class="sec-title">Avatar</h2>
   <p class="sec-desc">
     Circle shape. Fallback: initials on <code>bg-muted</code> with <code>text-secondary</code>.
-    Sizes are provisional &mdash; confirm with Decision D7.
+    Sizes: sm 24 / md 32 / lg 40px (Decision D7 resolved 2026-06-11).
   </p>
 
   <div class="sub">
@@ -25,10 +25,6 @@ mountSection('avatar', `
       <div class="flex col items-c gap-8">
         <span class="avatar av-lg">AB</span>
         <span style="font-size:11px;color:var(--text-muted)">lg &middot; 40px</span>
-      </div>
-      <div class="flex col items-c gap-8">
-        <span class="avatar av-xl">AB</span>
-        <span style="font-size:11px;color:var(--text-muted)">xl &middot; 48px</span>
       </div>
     </div>
     <div class="demo-code"><span class="kw">.avatar</span> {

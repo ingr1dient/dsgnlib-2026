@@ -41,12 +41,12 @@ window.DS = {
       { name:'danger/400', hex:'#ED2227' },
       { name:'danger/500', hex:'#D70005' },
     ]},
-    { label: 'Warning / Yellow', tokens: [
-      { name:'warning/100', hex:'#FFF5C0' },
-      { name:'warning/200', hex:'#FFEB80' },
-      { name:'warning/300', hex:'#FEE141' },
-      { name:'warning/400', hex:'#FED702' },
-      { name:'warning/500', hex:'#FECC02' },
+    { label: 'Warning / Amber', tokens: [
+      { name:'warning/100', hex:'#FEF3C7' },
+      { name:'warning/200', hex:'#FDE68A' },
+      { name:'warning/300', hex:'#FCD34D' },
+      { name:'warning/400', hex:'#F59E0B' },
+      { name:'warning/500', hex:'#D97706' },
     ]},
     { label: 'Success / Green', tokens: [
       { name:'success/100', hex:'#F0FDF4' },
@@ -74,7 +74,7 @@ window.DS = {
     { n:'text-primary',     a:'text/500',      h:'#1A1A1A', u:'Primary body text' },
     { n:'text-secondary',   a:'text/300',      h:'#636363', u:'Labels, captions' },
     { n:'text-muted',       a:'text/100',      h:'#8E8E8E', u:'Placeholder, helper text' },
-    { n:'text-disabled',    a:'neutral/200',   h:'#CCCCCC', u:'Disabled text' },
+    { n:'text-disabled',    a:'neutral/300',   h:'#999999', u:'Disabled text' },
     { n:'text-inverse',     a:'base/white',    h:'#FFFFFF', u:'Text on dark backgrounds' },
     { n:'text-link',        a:'primary/300',   h:'#4A95FF', u:'Hyperlinks' },
     { g:'Borders' },
@@ -94,9 +94,9 @@ window.DS = {
     { n:'status/danger-text',   a:'danger/500', h:'#D70005', u:'Error text' },
     { n:'status/danger-border', a:'danger/400', h:'#ED2227', u:'Error border' },
     { g:'Status — Warning' },
-    { n:'status/warning-bg',     a:'warning/100', h:'#FFF5C0', u:'Warning background' },
-    { n:'status/warning-text',   a:'warning/500', h:'#FECC02', u:'Warning text' },
-    { n:'status/warning-border', a:'warning/400', h:'#FED702', u:'Warning border' },
+    { n:'status/warning-bg',     a:'warning/100', h:'#FEF3C7', u:'Warning background' },
+    { n:'status/warning-text',   a:'warning/500', h:'#D97706', u:'Warning text' },
+    { n:'status/warning-border', a:'warning/400', h:'#F59E0B', u:'Warning border' },
   ],
 
   TYPES: [
