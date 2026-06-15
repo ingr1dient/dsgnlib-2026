@@ -66,7 +66,7 @@ body {
   transition: color 0.13s, background 0.13s, border-color 0.13s;
 }
 .sb-link:hover { color: #E6EDF3; background: rgba(255,255,255,0.04); }
-.sb-link.active { color: #81B5FF; border-left-color: #2882FF; background: rgba(40,130,255,0.09); }
+.sb-link.active { color: #93C5FD; border-left-color: #2882FF; background: rgba(40,130,255,0.09); }
 
 /* ── Main content ── */
 .main { margin-left: 248px; flex: 1; min-width: 0; }

@@ -7,8 +7,8 @@ mountSection('button', `
   <h2 class="sec-title">Button</h2>
   <p class="sec-desc">
     Three variants (primary, secondary, ghost) &times; two sizes (md 40px, sm 32px) &times; three states.
-    Radius: 8px (Decision D2 resolved 2026-06-11; LFX overrides to full pill in its theme).
-    Action colour resolves from <code>--action</code> &mdash; override per client theme.
+    Radius: 8px (Decision D2 resolved 2026-06-11).
+    Action colour resolves from <code>--action</code> &mdash; client themes may replace the primary ramp.
   </p>
 
   <div class="sub">

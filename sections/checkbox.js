@@ -118,12 +118,12 @@ mountSection('checkbox', `
   <div class="sub">
     <div class="sub-title">Rule</div>
     ${ruleGrid(
-      'background: var(--action);\nborder-color: var(--action);\n/* resolves per client theme */',
+      'background: var(--action);\nborder-color: var(--action);\n/* resolves from the theme */',
       'background: #2882FF;\nborder-color: #2882FF;\n/* hardcoded — breaks theming */'
     )}
     <p class="muted" style="margin-top:12px">
       The checked state fill must reference <code>--action</code>.
-      This ensures LFX gets red and QMAS gets navy without any component changes.
+      This lets a client theme swap the brand colour without any component changes.
     </p>
   </div>
 `);

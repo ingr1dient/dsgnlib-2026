@@ -3,7 +3,7 @@
 mountSection('overview', `
   <h1 class="sec-title">Base Design System</h1>
   <p class="sec-desc">
-    A generic, client-agnostic foundation consolidating patterns from LFX and QMAS.
+    A generic, client-agnostic foundation for compliance-platform UI.
     Components always consume <strong>semantic tokens</strong> — never primitives.
     Client themes override semantic tokens only.
   </p>
@@ -15,8 +15,8 @@ mountSection('overview', `
   </div>
   <div class="alert-bar">
     <strong>&#10003; All design decisions resolved (2026-06-11)</strong> &mdash;
-    D1 action colour stays abstract (client-mapped) &middot; D2 radius 8px &middot;
-    D3 page bg #FAFAFA &middot; D4 muted #8E8E8E &middot; D5 amber warning ramp &middot;
+    D1 primary = #2882FF blue ramp (re-themeable) &middot; D2 radius 8px &middot;
+    D3 page bg #F5F6FA (soft blue-grey) &middot; D4 muted #8E8E8E &middot; D5 amber warning ramp &middot;
     D6 Futura dropped from base &middot; D7 avatars 24/32/40 &middot;
     D8 custom icon set &middot; D9 text-disabled #999999.
     Rationale in <code>DESIGN.md &sect;5</code>.

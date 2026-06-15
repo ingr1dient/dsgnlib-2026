@@ -194,13 +194,13 @@
 }
 .prompt-tag { font-size:11px; font-weight:500; padding:2px 8px; border-radius:100px; border:1px solid; }
 .tag-foundation { background:#F0FDF4; color:#15803D; border-color:#86EFAC; }
-.tag-data       { background:#EFF6FF; color:#0F65DC; border-color:#81B5FF; }
+.tag-data       { background:#EFF6FF; color:#1D4ED8; border-color:#93C5FD; }
 .tag-form       { background:#FEF3C7; color:#7B5800; border-color:#F59E0B; }
 .tag-doc        { background:#F3F4F6; color:#374151; border-color:#D1D5DB; }
 
 /* Callout boxes */
 .callout { padding:12px 16px; border-radius:8px; border:1px solid; font-size:13px; line-height:1.65; margin-bottom:20px; }
-.callout-info { background:#EFF6FF; border-color:#81B5FF; color:#0F65DC; }
+.callout-info { background:#EFF6FF; border-color:#93C5FD; color:#1D4ED8; }
 .callout-tip  { background:#F0FDF4; border-color:#86EFAC; color:#15803D; }
 .callout strong { font-weight:600; }
 
@@ -214,7 +214,7 @@
 .pt-label { font-size:11px; font-family:'Roboto Mono',monospace; color:#6E7681; }
 .copy-btn {
   font-size:11px; font-weight:500; font-family:'Roboto',sans-serif;
-  background:rgba(40,130,255,0.15); color:#81B5FF;
+  background:rgba(40,130,255,0.15); color:#93C5FD;
   border:1px solid rgba(40,130,255,0.25);
   padding:4px 10px; border-radius:5px; cursor:pointer; transition:all 0.12s;
 }

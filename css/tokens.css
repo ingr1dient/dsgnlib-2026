@@ -6,11 +6,11 @@
 
 :root {
   /* ── Primitives: Primary Blue ── */
-  --p100: #BBD7FF;
-  --p200: #81B5FF;
-  --p300: #4A95FF;
-  --p400: #2882FF;   /* primary brand */
-  --p500: #0F65DC;
+  --p100: #EFF6FF;
+  --p200: #BFDBFE;
+  --p300: #93C5FD;
+  --p400: #2882FF;   /* primary brand — matches the Figma variables */
+  --p500: #1D4ED8;
 
   /* ── Primitives: Neutral / Grey ── */
   --n100: #EEEEEE;
@@ -26,12 +26,12 @@
   --t400: #333333;
   --t500: #1A1A1A;
 
-  /* ── Primitives: Background ── */
-  --b100: #FAFAFA;
-  --b200: #F0F0F0;
-  --b300: #EAEAEA;
-  --b400: #E5E5E5;
-  --b500: #E1E1E1;
+  /* ── Primitives: Background (soft blue-grey ramp — D3, revised 2026-06-15) ── */
+  --b100: #F5F6FA;
+  --b200: #EDEEF5;
+  --b300: #E5E7F0;
+  --b400: #DDDFEC;
+  --b500: #D5D8E7;
 
   /* ── Primitives: Danger / Red ── */
   --d100: #FFE5E5;
@@ -79,7 +79,7 @@
   --text-muted:     var(--t100);
   --text-disabled:  var(--n300);  /* D9: was n200, which equals action-disabled */
   --text-inverse:   var(--white);
-  --text-link:      var(--p300);
+  --text-link:      var(--p400);  /* DESIGN.md §1.2: text-link → primary-400 */
 
   /* Borders */
   --border-default: var(--n200);

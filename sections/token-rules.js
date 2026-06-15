@@ -14,7 +14,7 @@ mountSection('token-rules', `
     <div class="sub-title">Rule 1 &mdash; Always bind to semantic tokens</div>
     ${ruleGrid(
       'color:        var(--text-primary);\nbackground:   var(--bg-page);\nborder-color: var(--border-default);',
-      'color:        #1A1A1A;\nbackground:   #FAFAFA;\nborder-color: #CCCCCC;'
+      'color:        #1A1A1A;\nbackground:   #F5F6FA;\nborder-color: #CCCCCC;'
     )}
   </div>
 
