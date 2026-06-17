@@ -24,7 +24,7 @@ mountSection('select', `
           <div class="ds-select">
             <div class="ds-select-trigger">
               <span class="ds-select-placeholder">Select regulation&hellip;</span>
-              <span class="ds-select-arrow">&#8964;</span>
+              <span class="ds-select-arrow">&#9662;</span>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ mountSection('select', `
           <div class="ds-select" style="position:relative">
             <div class="ds-select-trigger open">
               <span style="color:var(--text-primary)">CE Marking</span>
-              <span class="ds-select-arrow" style="transform:rotate(180deg)">&#8964;</span>
+              <span class="ds-select-arrow" style="transform:rotate(180deg)">&#9662;</span>
             </div>
             <div class="ds-dropdown" style="position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:10">
               <div class="ds-dropdown-group">EU</div>
@@ -58,7 +58,7 @@ mountSection('select', `
               <span class="badge b-primary" style="display:inline-flex;align-items:center;gap:4px">
                 FDA 510(k) <span style="cursor:pointer;opacity:0.7;font-size:12px">&#10005;</span>
               </span>
-              <span class="ds-select-arrow" style="margin-left:auto">&#8964;</span>
+              <span class="ds-select-arrow" style="margin-left:auto">&#9662;</span>
             </div>
           </div>
         </div>
@@ -93,12 +93,12 @@ mountSection('select', `
         <div class="ds-select" style="position:relative">
           <div class="ds-select-trigger open">
             <span class="ds-select-placeholder">Select regulation&hellip;</span>
-            <span class="ds-select-arrow" style="transform:rotate(180deg)">&#8964;</span>
+            <span class="ds-select-arrow" style="transform:rotate(180deg)">&#9662;</span>
           </div>
           <div class="ds-dropdown" style="position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:10">
             <div style="padding:6px 8px">
               <input class="input" placeholder="Search&hellip;" type="text"
-                style="height:32px;font-size:13px;padding:0 10px">
+                style="width:100%;height:32px;font-size:13px;padding:0 10px">
             </div>
             <div class="ds-dropdown-group">EU</div>
             <div class="ds-dropdown-item selected">CE Marking</div>

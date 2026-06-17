@@ -49,7 +49,7 @@ mountSection('modal', `
         </div>
         <div class="ds-modal-foot">
           <button class="btn btn-ghost btn-md">Cancel</button>
-          <button class="btn btn-primary btn-md" style="background:var(--d500)">Delete Certificate</button>
+          <button class="btn btn-primary btn-md" style="background:var(--d500);box-shadow:0 4px 0 rgba(215,0,5,0.18)">Delete Certificate</button>
         </div>
       </div>
     </div>

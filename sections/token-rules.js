@@ -21,7 +21,7 @@ mountSection('token-rules', `
   <div class="sub">
     <div class="sub-title">Rule 2 &mdash; Never reference primitive tokens in components</div>
     ${ruleGrid(
-      '/* semantic layer */\ncolor:      var(--text-primary);\nbackground: var(--s-danger-bg);',
+      '/* semantic layer */\ncolor:      var(--text-primary);\nbackground: var(--status-danger-bg);',
       '/* bypasses semantic layer */\ncolor:      var(--t500);\nbackground: var(--d100);'
     )}
   </div>

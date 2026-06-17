@@ -95,11 +95,32 @@
   --action-disabled: var(--n200);
   --action-subtle:   var(--p100);
 
-  /* Status */
-  --s-danger-bg:  var(--d100);
-  --s-danger-tx:  var(--d500);
-  --s-danger-bd:  var(--d400);
-  --s-warn-bg:    var(--w100);
-  --s-warn-tx:    var(--w500);
-  --s-warn-bd:    var(--w400);
+  /* Status — functional (names match DESIGN.md §1.2 exactly) */
+  --status-danger-bg:      var(--d100);
+  --status-danger-text:    var(--d500);
+  --status-danger-border:  var(--d400);
+  --status-warning-bg:     var(--w100);
+  --status-warning-text:   var(--w500);
+  --status-warning-border: var(--w400);
+
+  /* Status — compliance lifecycle (DESIGN.md §1.2 / §4.7) */
+  --status-compliant-bg:         var(--s100);
+  --status-compliant-text:       var(--s500);
+  --status-compliant-border:     var(--s400);
+  --status-non-compliant-bg:     var(--d100);
+  --status-non-compliant-text:   var(--d500);
+  --status-non-compliant-border: var(--d400);
+  --status-pending-bg:           var(--w100);
+  --status-pending-text:         var(--w500);
+  --status-pending-border:       var(--w400);
+  /* expired remapped to danger — orange ramp removed 2026-06-17 */
+  --status-expired-bg:           var(--d100);
+  --status-expired-text:         var(--d500);
+  --status-expired-border:       var(--d400);
+  --status-review-bg:            var(--p100);
+  --status-review-text:          var(--p500);
+  --status-review-border:        var(--p400);
+  --status-na-bg:                var(--n100);
+  --status-na-text:              var(--n400);
+  --status-na-border:            var(--n200);
 }

@@ -17,7 +17,7 @@ mountSection('checkbox', `
   <div class="sub">
     <div class="sub-title">States</div>
     <div class="demo">
-      <div class="flex gap-16 items-c" style="flex-wrap:wrap">
+      <div class="flex gap-16" style="flex-wrap:wrap;align-items:flex-start">
 
         <!-- Unchecked -->
         <div style="display:flex;flex-direction:column;align-items:center;gap:8px">

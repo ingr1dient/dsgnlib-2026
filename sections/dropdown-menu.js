@@ -81,8 +81,8 @@ mountSection('dropdown-menu', `
   <div class="sub">
     <div class="sub-title">Rule</div>
     ${ruleGrid(
-      '<!-- Safe actions first, destructive last + divider -->\n<div class="ds-menu">\n  <div class="ds-menu-item">👁 View</div>\n  <div class="ds-menu-item">✏️ Edit</div>\n  <div class="ds-menu-divider"></div>\n  <div class="ds-menu-item destructive">🗑 Delete</div>\n</div>',
-      '<!-- Destructive action mixed in with safe actions -->\n<div class="ds-menu">\n  <div class="ds-menu-item">👁 View</div>\n  <div class="ds-menu-item destructive">🗑 Delete</div>\n  <div class="ds-menu-item">✏️ Edit</div>\n</div>'
+      '&lt;!-- Safe actions first; destructive last + divider --&gt;\n&lt;div class="ds-menu"&gt;\n  &lt;div class="ds-menu-item"&gt;View&lt;/div&gt;\n  &lt;div class="ds-menu-item"&gt;Edit&lt;/div&gt;\n  &lt;div class="ds-menu-divider"&gt;&lt;/div&gt;\n  &lt;div class="ds-menu-item destructive"&gt;Delete&lt;/div&gt;\n&lt;/div&gt;',
+      '&lt;!-- Destructive intermixed with safe actions --&gt;\n&lt;div class="ds-menu"&gt;\n  &lt;div class="ds-menu-item"&gt;View&lt;/div&gt;\n  &lt;div class="ds-menu-item destructive"&gt;Delete&lt;/div&gt;\n  &lt;div class="ds-menu-item"&gt;Edit&lt;/div&gt;\n&lt;/div&gt;'
     )}
   </div>
 `);

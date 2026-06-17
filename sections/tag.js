@@ -68,8 +68,8 @@ mountSection('tag', `
   <div class="sub">
     <div class="sub-title">Rule</div>
     ${ruleGrid(
-      '<!-- Filter bar: chips with × -->\n<span class="ds-tag ds-tag-primary">\n  ISO 9001\n  <span class="ds-tag-close">&times;</span>\n</span>\n\n<!-- Record label: tag without × -->\n<span class="ds-tag ds-tag-default">EU</span>',
-      '<!-- Mixed: some with ×, some without on same row -->\n<span class="ds-tag ds-tag-primary">\n  ISO 9001 <span class="ds-tag-close">&times;</span>\n</span>\n<span class="ds-tag ds-tag-default">\n  EU <!-- no × but sits in same filter row -->\n</span>'
+      '&lt;!-- Filter bar: chips are dismissible --&gt;\n&lt;span class="ds-tag ds-tag-primary"&gt;\n  ISO 9001 &lt;span class="ds-tag-close"&gt;×&lt;/span&gt;\n&lt;/span&gt;\n\n&lt;!-- Record label: tag, no × --&gt;\n&lt;span class="ds-tag ds-tag-default"&gt;EU&lt;/span&gt;',
+      '&lt;!-- Do not mix × and non-× in one row --&gt;\n&lt;span class="ds-tag ds-tag-primary"&gt;\n  ISO 9001 &lt;span class="ds-tag-close"&gt;×&lt;/span&gt;\n&lt;/span&gt;\n&lt;span class="ds-tag ds-tag-default"&gt;EU&lt;/span&gt;'
     )}
   </div>
 `);

@@ -98,7 +98,7 @@ mountSection('progress', `
 
   <div class="sub">
     <div class="sub-title">Compliance use case note</div>
-    <p class="label-row" style="font-size:13px;color:var(--text-secondary)">
+    <p style="font-size:13px;color:var(--text-secondary);line-height:1.65;max-width:640px">
       Use <strong>default (blue)</strong> for general coverage metrics on dashboard cards.
       Switch to <strong>p-success</strong> when a product reaches 100% compliance.
       Use <strong>p-warn</strong> for in-progress reviews (typically 30&ndash;79%).
